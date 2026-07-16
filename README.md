@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <a href="https://brilliant-sort.cagedbird.cn/"><img alt="Play Brilliant Sort" src="https://img.shields.io/badge/PLAY_BRILLIANT_SORT-0ea5e9?style=for-the-badge&logo=googleplay&logoColor=white"></a>
+  <a href="https://brilliant-sort.cagedbird.cn/"><img alt="Play Brilliant Sort" src="https://img.shields.io/badge/PLAY_BRILLIANT_SORT-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="https://github.com/cagedbird043/brilliant-sort"><img alt="Brilliant Sort source" src="https://img.shields.io/badge/SOURCE-18243b?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://github.com/cagedbird043/brilliant-sort/blob/main/submission/evidence-matrix.md"><img alt="Evidence matrix" src="https://img.shields.io/badge/EVIDENCE_MATRIX-f59e0b?style=for-the-badge&logo=checkmarx&logoColor=111827"></a>
+  <a href="https://github.com/cagedbird043/brilliant-sort/blob/main/submission/evidence-matrix.md"><img alt="Evidence matrix" src="https://img.shields.io/badge/EVIDENCE_MATRIX-f59e0b?style=for-the-badge&logo=githubactions&logoColor=111827"></a>
   <a href="https://cagedbird.cn"><img alt="Engineering notes" src="https://img.shields.io/badge/ENGINEERING_NOTES-f43f5e?style=for-the-badge&logo=bookstack&logoColor=white"></a>
 </p>
 
