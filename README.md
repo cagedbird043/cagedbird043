@@ -35,9 +35,13 @@ The same repository owns the puzzle core, replay harness, responsive game stage,
 
 ## Upstream work that landed
 
+### [KDE Connect desktop](https://invent.kde.org/network/kdeconnect-kde/-/merge_requests/965) · `merged` `first contribution`
+
+Stopped fire-and-forget payloads from holding transfer ports indefinitely when the receiver never connects. Added a bounded connection timeout plus regression coverage; the upstream pipeline passed and the fix landed as **[KDE Invent !965](https://invent.kde.org/network/kdeconnect-kde/-/merge_requests/965)** · **[GitHub commit](https://github.com/KDE/kdeconnect-kde/commit/94baac4b28589260b2348cbc0980711c83aba9ea)**.
+
 ### [KDE Connect Android](https://invent.kde.org/network/kdeconnect-android/-/merge_requests/650) · `merged` `first contribution`
 
-Designed and validated a narrow trust path for explicit tailnet peers delivered as loopback by Android userspace VPNs. The fix kept normal identity and TLS handling intact, passed the upstream pipeline, and landed as **[KDE Invent !650](https://invent.kde.org/network/kdeconnect-android/-/merge_requests/650)**.
+Validated Android userspace VPN/tailnet delivery down to the app-visible loopback socket, then landed the maintainer-requested narrow fix in the private-address gate. Normal identity and TLS handling stay intact. **[KDE Invent !650](https://invent.kde.org/network/kdeconnect-android/-/merge_requests/650)** · **[GitHub commit](https://github.com/KDE/kdeconnect-android/commit/bfab7c89496055914240b6d8c3541140b853aeeb)**.
 
 ### [Oh My Pi](https://github.com/can1357/oh-my-pi) · `9 merged PRs`
 
