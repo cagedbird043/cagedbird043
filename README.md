@@ -35,17 +35,13 @@ The same repository owns the puzzle core, replay harness, responsive game stage,
 
 ## Upstream work that landed
 
-### [KDE Connect desktop](https://invent.kde.org/network/kdeconnect-kde/-/merge_requests/965) · `merged` `first contribution`
+- **KDE Connect** · `2 merged first-contribution MRs` — desktop transfer-port timeout ([!965](https://invent.kde.org/network/kdeconnect-kde/-/merge_requests/965) · [commit](https://github.com/KDE/kdeconnect-kde/commit/94baac4b28589260b2348cbc0980711c83aba9ea)) and Android loopback transport support ([!650](https://invent.kde.org/network/kdeconnect-android/-/merge_requests/650) · [commit](https://github.com/KDE/kdeconnect-android/commit/bfab7c89496055914240b6d8c3541140b853aeeb)).
+- **[Oh My Pi](https://github.com/can1357/oh-my-pi)** · `9 merged PRs` — credential lifecycle, provider reliability, Gemini streams, and CJK-aware context handling.
+- **More public upstream** · `23 landed changes` — Sub2API, PIPA, FreeLLMAPI, AnySearch Skill, and sing-tun.
 
-Stopped fire-and-forget payloads from holding transfer ports indefinitely when the receiver never connects. Added a bounded connection timeout plus regression coverage; the upstream pipeline passed and the fix landed as **[KDE Invent !965](https://invent.kde.org/network/kdeconnect-kde/-/merge_requests/965)** · **[GitHub commit](https://github.com/KDE/kdeconnect-kde/commit/94baac4b28589260b2348cbc0980711c83aba9ea)**.
-
-### [KDE Connect Android](https://invent.kde.org/network/kdeconnect-android/-/merge_requests/650) · `merged` `first contribution`
-
-Validated Android userspace VPN/tailnet delivery down to the app-visible loopback socket, then landed the maintainer-requested narrow fix in the private-address gate. Normal identity and TLS handling stay intact. **[KDE Invent !650](https://invent.kde.org/network/kdeconnect-android/-/merge_requests/650)** · **[GitHub commit](https://github.com/KDE/kdeconnect-android/commit/bfab7c89496055914240b6d8c3541140b853aeeb)**.
-
-### [Oh My Pi](https://github.com/can1357/oh-my-pi) · `9 merged PRs`
-
-Shipped production fixes across credential persistence and rotation, provider fallback, gateway error classification, Gemini streams, and CJK-aware context compaction. **[Browse the merged pull requests →](https://github.com/can1357/oh-my-pi/pulls?q=is%3Apr+author%3Acagedbird043+is%3Amerged)**
+<p align="center">
+  <a href="https://github.com/cagedbird043/upstream-work"><img alt="View all upstream work" src="https://img.shields.io/badge/VIEW_ALL_34_LANDED_CHANGES-0ea5e9?style=for-the-badge&logo=git&logoColor=white"></a>
+</p>
 
 ## Selected systems
 
